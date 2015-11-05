@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Practice To-Do List</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+
+		<nav>
+			<h1><a href="">Main</a></h1>
+			<div>
+				<ul>
+					<li><a href="">List</a></li>
+					<li><a href="">Calendar</a></li>
+					<li><a href="">Map</a></li>
+					<li><a href="">Time</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<main>
+			
+			<div class="toDoList">
+				<h1>To-Dos:</h1>
+				<ol id="toDoList">
+				</ol>
+			</div>
+			
+			<div class="addToDo">
+				<h1>Add To-Do</h1>
+				<form method="get" action="" onsubmit="return false">
+					<label for="newToDo">New To-Do:</label>
+					<input type="text" id="newToDo" required>
+					<input type="submit" onclick="addToDo(newToDo)">
+				</form>
+			</div>
+		
+		</main>
+		
+		<script type="text/javascript" src="javascript.js"></script>
+	</body>
+</html>

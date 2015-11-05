@@ -1,0 +1,39 @@
+
+body {
+	margin: 20px 20px;
+}
+
+nav {
+	background-color: black;
+	padding: 10px 10px 40px 10px;
+}
+
+nav * {
+	display: inline;
+	color: white;
+}
+
+nav ul {
+	float: right;
+	margin-right: 40px;
+}
+
+main h1 {
+	text-align: center;
+}
+
+.toDoList {
+	background-color: lightblue;
+	margin: 30px auto 30px auto;
+	padding: 30px;
+	width: 50%;
+}
+
+.addToDo {
+	background-color: pink;
+	margin: 30px auto 30px auto;
+	padding: 30px;
+	width: 50%;	
+}
+
+#toDoList {}
